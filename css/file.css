@@ -635,3 +635,124 @@
       height: 183.266px;
     }
   }
+  body { padding-top:30px; }
+.form-control { margin-bottom: 10px; }
+
+/*CSS login*/
+header{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img{
+  width: 100px;
+  height: 40px;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.btnOutros{
+  width: 450px;
+  height: 48px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 700;
+  
+}
+
+#facebook{
+  background-color: #3b5998;
+    color: white;
+}
+
+#apple{
+  background-color: #000;
+    color: white;
+}
+
+#google{
+  color: #616467;
+  background-color: white;
+  border: 3px solid #616467;
+  font-weight: 600;
+}
+
+#telefone{
+  color: #616467;
+  background-color: white;
+  border: 3px solid #616467;
+    font-weight: 600;
+}
+
+#nomeInput{
+  border: 1px solid #d9dadc;
+  width: 450px;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+#senhaInput{
+  border: 1px solid #d9dadc;
+  width: 450px;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+#lblEmail{
+  width: 450px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#lblSenha{
+  width: 450px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.esqueceuSenha{
+  color: #15883e;
+  text-decoration: underline;
+  width: 450px;
+  font-size: 15px;
+}
+
+.bottomContainer{
+  display:flex;
+  align-items: center;
+  width: 450px;
+}
+
+.quadrado{
+  width: 15px;
+  height: 15px;
+  border: 1px solid #15883e;
+  margin-right: 5px;
+  margin-left: 0;
+}
+
+.lembrarDeMim{
+  color: gray;
+  font-size: 15px;
+}
+
+#entrar{
+  background-color: #15883e;
+  width:450px;
+  height: 48px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+}
