@@ -1,0 +1,121 @@
+/*CSS login*/
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header img{
+    width: 100px;
+    height: 40px;
+  }
+  
+  .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .btnA{
+    width: 450px;
+    height: 48px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+    
+  }
+  
+  #facebook{
+    background-color: #3b5998;
+      color: white;
+  }
+  
+  #apple{
+    background-color: #000;
+      color: white;
+  }
+  
+  #google{
+    color: #616467;
+    background-color: white;
+    border: 3px solid #616467;
+    font-weight: 600;
+  }
+  
+  #telephone{
+    color: #616467;
+    background-color: white;
+    border: 3px solid #616467;
+      font-weight: 600;
+  }
+  
+  #email{
+    border: 1px solid #d9dadc;
+    width: 450px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  #password{
+    border: 1px solid #d9dadc;
+    width: 450px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  
+  #exampleInputEmail1{
+    width: 450px;
+    margin-bottom: 10px;
+    font-size:15px;
+    font-weight: 600;
+  }
+  
+  #exampleInputPassword1{
+    width: 450px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .Quenmatkhau{
+    color: #15883e;
+    text-decoration: underline;
+    width: 450px;
+    font-size: 15px;
+  }
+  
+  .exampleCheck1{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: #15883e;
+  }
+  .exampleCheck2{
+    color: gray;
+    background-color: #15883e;
+    font-size: 15px;
+    width: 450px;
+   
+  }
+  #submit{
+    background-color: #15883e;
+    width:450px;
+    height: 48px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+  }
+  .validationDefault01{
+    width: 450px;
+    margin-bottom: 10px;
+  }
+  .validationDefault02{
+    width: 450px;
+    margin-bottom: 10px;
+  }
+  
