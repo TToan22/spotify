@@ -38,37 +38,6 @@
       <div>
           <label for="exampleInputEmail1">What's your date of birth?</label>
       </div> 
-   
-
-      <div>
-        <div class="row">
-          <div class="col-xs-2 col-md-2">
-            <label for="validationDefault01" class="form-label">Day</label>
-            <input type="text" class="form-control" id="validationDefault01" placeholder="DD" >
-          </div>
-          <div class="col-xs-3 col-md-3">
-                <label for="validationDefault04" class="form-label">Month</label>
-        <select class="form-select" id="validationDefault04" required>
-          <option selected disabled value="">Month</option>
-          <option>January</option>
-          <option>February</option>
-          <option>March</option>
-          <option>April</option>
-          <option>May</option>
-          <option>June</option>
-          <option>July</option>
-          <option>August</option>
-          <option>September</option>
-          <option>October</option>
-          <option>November</option>
-          <option>December</option>
-              </select>
-          </div>
-          <div class="col-xs-2 col-md-2">
-                <label for="validationDefault02" class="form-label">Year</label>
-                <input type="text" class="form-control" id="validationDefault02" placeholder="YYYY" >      
-          </div>
-      </div>
       <div>
         <label for="exampleInputEmail1">What's your gender?</label>
       </div>
