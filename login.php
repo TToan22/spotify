@@ -17,11 +17,10 @@
     
     <div class = "container">
       <h2 class = "tit1">Để tiếp tục, hãy đăng nhập vào Spotify</h2>
-      <button  class = "btnA" id = "facebook" >TIẾP TỤC VỚI FACEBOOK</button>
-      <button class = "btnA" id = "apple">TIẾP TỤC VỚI APPLE</button>
-      <button class = "btnA" id = "google">TIẾP TỤC BẰNG GOOGLE</button>
-      <button class = "btnA" id = "telephone">TIẾP TỤC VỚI SỐ ĐIỆN THOẠI</button>
-      
+      <a style= "width: 40%" class="btn btn-primary rounded-pill btn-lg" href="https://accounts.spotify.com/vi-VN/login/facebook?continue=https%3A%2F%2Fopen.spotify.com%2F__noul__%3Fl2l%3D1%26nd%3D1" role="button" id="facebook">TIẾP TỤC VỚI FACEBOOK</a>
+      <a style= "width: 40%" class="btn btn-dark  rounded-pill btn-lg" href="https://appleid.apple.com/auth/authorize?client_id=com.spotify.accounts&response_type=code&response_mode=form_post&scope=name%20email&state=AQASwUoiyjfPg1VpaWEOEDhV%2BNeJWbr1CVPiK28FJzuBuhWX38ubePhOAX7pI%2B9D%2Bdx%2BJCKXkv0wkcRHOE6zRRczPGtrJvwPguhE5umQCAXklP109i6%2FPxk0c8PXcdDSeCbFeUhYwfnFCLYR3afkZ4Du7TJKcHYOVSoD3AP1luyVQz5uBExzGl3%2Bw0AEsr2DshzouA6Y0MNAHaXSmnpbUJqiaqbeOTGYOSyjAxezrq70ejTlUsXcKVnFajCcG%2Fi756UD&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fapple%2Fredirect" role="button" id = "apple">TIẾP TỤC VỚI APPLE</a>
+      <a style= "width: 40%" class="btn btn-light  rounded-pill btn-lg" href="https://accounts.spotify.com/vi-VN/login?error=errorGoogleAccount&continue=https:%2F%2Fopen.spotify.com%2F__noul__%3Fl2l%3D1%26nd%3D1" role="button" id = "google">TIẾP TỤC BẰNG GOOGLE</a>
+      <a style= "width: 40%" class="btn btn-light  rounded-pill btn-lg" href="https://accounts.spotify.com/vi-VN/login/phone?continue=https:%2F%2Fopen.spotify.com%2F__noul__%3Fl2l%3D1%26nd%3D1" role="button" id = "telephone">TIẾP TỤC VỚI SỐ ĐIỆN THOẠI</a>
       <br>
     <hr/>
     <br>
@@ -48,7 +47,7 @@
       <button type="submit" class="btn btn-primary" name="btnSignIn" id="submit">Đăng nhập</button>
     </form>
 
-    </div>
+  </div>
     
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
