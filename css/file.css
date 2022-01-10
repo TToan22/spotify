@@ -641,4 +641,8 @@ input[type=text] {
   border-radius: 30px;
   margin-right: auto;
 }
+.btn btn-dark btn-sm{
+  margin-right: auto;
+
+}
 
