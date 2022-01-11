@@ -3,7 +3,7 @@
     session_start();
 
     //login.php TRUYỀN DỮ LIỆU SANG: NHẬN DỮ LIỆU TỪ login.php gửi sang
-    if(isset($_POST['btnLogin'])){
+    if(isset($_POST['btnSignIn'])){
         $email = $_POST['txtEmail'];
         $pass  = $_POST['txtPass'];
         //Ở đây còn phải kiểm tra người dùng đã nhập chưa
@@ -22,7 +22,7 @@
         if(mysqli_num_rows($result) > 0){
             // CẤP THẺ LÀM VIỆC
             $_SESSION['isLoginOK'] = $email;
-            header("location: admin.php"); //Chuyển hướng về Trang quản trị
+            header("location: index.php"); //Chuyển hướng về Trang quản trị
         }else{
             $error = "Bạn nhập thông tin Email hoặc mật khẩu chưa chính xác";
             header("location: login.php?error=$error"); //Chuyển hướng, hiển thị thông báo lỗi
