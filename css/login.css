@@ -17,57 +17,6 @@ flex-direction: column;
 align-items: center;
 }
 
-.btnA{
-  width: 450px;
-  height: 48px;
-  margin-bottom: 10px;
-  border-radius: 30px;
-  border: none;
-  font-weight: 700;
-  
-}
-
-#facebook{
-  background-color: #3b5998;
-    color: white;
-}
-
-#apple{
-  background-color: #000;
-    color: white;
-}
-
-#google{
-  color: #616467;
-  background-color: white;
-  border: 3px solid #616467;
-  font-weight: 600;
-}
-
-#telephone{
-  color: #616467;
-  background-color: white;
-  border: 3px solid #616467;
-    font-weight: 600;
-}
-
-#email{
-  border: 1px solid #d9dadc;
-  width: 450px;
-  height: 40px;
-  box-sizing: border-box;
-  padding: 15px;
-  margin-bottom: 10px;
-}
-
-#password{
-  border: 1px solid #d9dadc;
-  width: 450px;
-  height: 40px;
-  box-sizing: border-box;
-  padding: 15px;
-}
-
 #exampleInputEmail1{
   width: 450px;
   margin-bottom: 10px;

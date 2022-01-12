@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +10,6 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
@@ -36,11 +34,12 @@
               </li>
               <li role="separator" class="divider"></li>
               <li class="nav-item">
-                <a class="nav-link" href="">Sign up</a>
+                <a class="nav-link" href="signup.php">Sign up</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Log in</a>
+                <a class="nav-link" href="login.php">Log in</a>
               </li> 
+            </ul>
           </div>
         </div>
       </nav>
@@ -59,7 +58,6 @@
             <a class="nav-link" href="https://www.spotify.com/vn-en/about-us/contact/">About</a>
             <a class="nav-link" href="https://www.lifeatspotify.com/?_gl=1*im2o78*_gcl_aw*R0NMLjE2NDA3OTQxNjIuQ2owS0NRaUFxN0NPQmhDMkFSSXNBTnNQQVRIeHNmdjdiUTFFZDFRWU1FVXgtaE5PdlF4bFN0bW55OFo5WVF3bjFrTFZqVXd6Z3ppRlljQWFBc0pBRUFMd193Y0I.*_gcl_dc*R0NMLjE2NDA3OTQxNjIuQ2owS0NRaUFxN0NPQmhDMkFSSXNBTnNQQVRIeHNmdjdiUTFFZDFRWU1FVXgtaE5PdlF4bFN0bW55OFo5WVF3bjFrTFZqVXd6Z3ppRlljQWFBc0pBRUFMd193Y0I.&_ga=2.87682008.1781331454.1640699268-1988111177.1637823452&_gac=1.90730984.1640794163.Cj0KCQiAq7COBhC2ARIsANsPATHxsfv7bQ1Ed1QYMEUx-hNOvQxlStmny8Z9YQwn1kLVjUwzgziFYcAaAsJAEALw_wcB">Jobs</a>
             <a class="nav-link" href="https://newsroom.spotify.com/?_gl=1%2A1gtr1dw%2A_gcl_aw%2AR0NMLjE2NDA3OTQxNjIuQ2owS0NRaUFxN0NPQmhDMkFSSXNBTnNQQVRIeHNmdjdiUTFFZDFRWU1FVXgtaE5PdlF4bFN0bW55OFo5WVF3bjFrTFZqVXd6Z3ppRlljQWFBc0pBRUFMd193Y0I.%2A_gcl_dc%2AR0NMLjE2NDA3OTQxNjIuQ2owS0NRaUFxN0NPQmhDMkFSSXNBTnNQQVRIeHNmdjdiUTFFZDFRWU1FVXgtaE5PdlF4bFN0bW55OFo5WVF3bjFrTFZqVXd6Z3ppRlljQWFBc0pBRUFMd193Y0I.&_ga=2.183054310.1781331454.1640699268-1988111177.1637823452&_gac=1.81108709.1640794163.Cj0KCQiAq7COBhC2ARIsANsPATHxsfv7bQ1Ed1QYMEUx-hNOvQxlStmny8Z9YQwn1kLVjUwzgziFYcAaAsJAEALw_wcB">For the Record</a>
-
           </nav>
         </div>
 

@@ -15,9 +15,7 @@
     <link rel="stylesheet" href="css/file.css">
     <title>Spotify</title>
   </head>
-
   <body>
-
     <div class="container_big clearfix">
       <div class="header">
         <section class="nav_bar_top">

@@ -635,14 +635,3 @@ h1, h2, h3, h4, a {
     height: 183.266px;
   }
 }
-input[type=text] {
-  width: 30%;
-  height: 50%;
-  border-radius: 30px;
-  margin-right: auto;
-}
-.btn btn-dark btn-sm{
-  margin-right: auto;
-
-}
-
