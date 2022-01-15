@@ -7,33 +7,32 @@
     <title>Sign Up</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/signup.css">
 </head>
 <body >
   <header>
-    <img src = "https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Black.png"/></header>
-    <br>
+    <img src = "https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Black.png"/>
+  </header>
+    <hr>
     <div class = "container">
       <h2 class = "tit1" >Sign up for free to start listening.</h2>   
-
-      <br>
-      <br>
-    <form >
-      <div class="form-group">
+    <hr/>
+    <form action="process-Signup.php" method="post">
+      <div class="form-group ">
         <label for="exampleInputEmail1">What's your email?</label>
-        <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="Enter your email.">
+        <input type="email" class="form-control" id="exampleInputEmail1" name="txtEmail1" placeholder="Enter your email.">
       </div>
       <div class="form-group">
-        <label for="exampleInputPassword1">Confirm your email</label>
-        <input type="password" class="form-control" id="exampleInputPassword1"  placeholder="Enter your email again.">
+        <label for="exampleInputEmail1">Confirm your email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" name="txtEmail1" placeholder="Enter your email again.">
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Create a password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1"  placeholder="Create a password">
+        <input type="password" class="form-control" id="exampleInputPassword1" name="txtPass" placeholder="Create a password">
       </div>
       <div class="form-group">
-        <label for="exampleInputPassword1">What should we call you?</label>
-        <input type="password" class="form-control" id="exampleInputPassword1"  placeholder="Enter a profile name.">
+        <label for="exampleInputUser">What should we call you?</label>
+        <input type="User" class="form-control" id="exampleInputeUser" name="txtUser"  placeholder="Enter a profile name.">
       </div>   
       <div>
           <label for="exampleInputEmail1">What's your date of birth?</label>
