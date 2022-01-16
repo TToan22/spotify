@@ -26,19 +26,19 @@
               <a href="#"><img class="logo-small white" src="img/icons/logo-small.svg" alt="Spotify"></a>
               <ul class="menu">
                 <li>
-                  <a href="#">
+                  <a href="index.php">
                     <svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M448 463.746h-149.333v-149.333h-85.334v149.333h-149.333v-315.428l192-111.746 192 110.984v316.19z"></path></svg>
                     <span class="white">Trang chủ</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="search.php">
                     <svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M349.714 347.937l93.714 109.969-16.254 13.969-93.969-109.969q-48.508 36.825-109.207 36.825-36.826 0-70.476-14.349t-57.905-38.603-38.603-57.905-14.349-70.476 14.349-70.476 38.603-57.905 57.905-38.603 70.476-14.349 70.476 14.349 57.905 38.603 38.603 57.905 14.349 70.476q0 37.841-14.73 71.619t-40.889 58.921zM224 377.397q43.428 0 80.254-21.461t58.286-58.286 21.461-80.254-21.461-80.254-58.286-58.285-80.254-21.46-80.254 21.46-58.285 58.285-21.46 80.254 21.46 80.254 58.285 58.286 80.254 21.461z" fill-rule="evenodd"></path></svg>
                     <span>Tìm kiếm</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="library.php">
                     <svg viewBox="0 0 512 512" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M291.301 81.778l166.349 373.587-19.301 8.635-166.349-373.587zM64 463.746v-384h21.334v384h-21.334zM192 463.746v-384h21.334v384h-21.334z"></path></svg>
                     <span>Thư viện</span>
                   </a>
@@ -80,7 +80,7 @@
                 <li><a class="dropdown-item" href="https://www.spotify.com/vn-vi/account/overview/?utm_source=spotify&utm_medium=menu&utm_campaign=your_account">Tài khoản</a></li>
                 <li><a class="dropdown-item" href="#">Hồ sơ</a></li>
                 <li><a class="dropdown-item" href="#">Nâng cấp premium</a></li>
-                <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+                <li><a class="dropdown-item" href="home.php">Đăng xuất</a></li>
               </ul>
             </div>
           </div>
@@ -88,97 +88,98 @@
         <section class="box_main">
      
           <div class="music">
-            <div class="recently_played">
+            <div class="">
               <h2>Chương trình đáng để thử</h2>
               <div class="row">
-                <a class="box_music" href="#">
+                <a class="box_music" href=""> 
                     <img src="img/1.jpg" alt="">
-                    <h3>Tri kỉ cảm xúc</h3>
+                    <h3 class="far songItemPlay fa-play-circle">Tri kỉ cảm xúc</h3>
                     <h4>Web5ngay</h4>
                 </a>
                 <a class="box_music" href="#">
                     <img src="img/2.jpg" alt="">
-                    <h3>Hieu.TV</h3>
+                    <h3 class="far songItemPlay fa-play-circle">Hieu.TV</h3>
                     <h4>Hieu Nguyen</h4>
                 </a>
                 <a class="box_music" href="#">
                     <img src="img/3.jpg" alt="">
-                    <h3>Giang ơi Radio</h3>
+                    <h3 class="far songItemPlay fa-play-circle">Giang ơi Radio</h3>
                     <h4>Giang oi Radio</h4>
                 </a>
-                <a class="box_music" href="#">
+                <a class="box_music" href="">
                   <img src="img/4.jpg" alt="">
-                  <h3>Vu Tuấn Anh</h3>
+                  <h3 class="far songItemPlay fa-play-circle">Vu Tuấn Anh</h3>
                   <h4>Tuan Anh</h4>
                 </a>
                
                 <a class="box_music" href="#">
                   <img src="img/5.jpg" alt="">
-                  <h3>Sunhuyn Podcast</h3>
+                  <h3 class="far songItemPlay fa-play-circle">Sunhuyn Podcast</h3>
                   <h4>Sunhuyn</h4>
                 </a>
                 <a class="box_music" href="#">
                   <img src="img/6.jpg" alt="">
-                  <h3>The present Writer</h3>
+                  <h3 class="far songItemPlay fa-play-circle">The present Writer</h3>
                   <h4>Chi Nguyen,PHD</h4>
                 </a>
               </div>
             </div>
-            <div class="artists">
+            <div class="">
               <h2>Bảng xếp hạng nổi bật</h2>
               <div class="row">
-                <a class="box_music" href="#">
+                <a class="box_music" href="">
                     <img src="img/1.1.jpg" alt="">
-                    <h3>Bảng xếp hạng tại toàn cầu</h3>
+                    <h3 class="far songItemPlay fa-play-circle">Bảng xếp hạng tại toàn cầu</h3>
                 </a>
                 <a class="box_music" href="#">
                     <img src="img/1.2.jpg" alt="">
-                    <h3>Bảng xếp hạng tại Việt Nam</h3>
+                    <h3 class="far songItemPlay fa-play-circle">Bảng xếp hạng tại Việt Nam</h3>
                 </a>
                 <a class="box_music" href="#">
                     <img src="img/1.3.jpg" alt="">
-                    <h3>50 bài hát đầu tại toàn cầu</h3>
+                    <h3 class="far songItemPlay fa-play-circle">50 bài hát đầu tại toàn cầu</h3>
                 </a>
                 <a class="box_music" href="#">
                     <img src="img/1.4.jpg" alt="">
-                    <h3>50 bài hát đầu tại Việt Nam</h3>
+                    <h3 class="far songItemPlay fa-play-circle">50 bài hát đầu tại Việt Nam</h3>
                 </a>
                 <a class="box_music" href="#">
                   <img src="img/1.5.jpg" alt="">
-                  <h3>50 bài Thịnh hành nhất Toàn cầu</h3>
+                  <h3 class="far songItemPlay fa-play-circle">50 bài Thịnh hành nhất Toàn cầu</h3>
                 </a>
                 <a class="box_music" href="#">
                   <img src="img/1.6.jpg" alt="">
-                  <h3>50 bài Thịnh hành nhất Việt Nam</h3>
+                  <h3 class="far songItemPlay fa-play-circle">50 bài Thịnh hành nhất Việt Nam</h3>
                 </a>
               </div>
             </div>
             
+              <div  class="">
               <h2>Nhạc hoàn toàn mới</h2>
               <div class="row">
                 <a class="box_music" href="#">
                     <img src="img/2.1.jpg" alt="">
-                    <h3>25 mét vuông</h3>
+                    <h3 class="far songItemPlay fa-play-circle">25 mét vuông</h3>
                 </a>
                 <a class="box_music" href="#">
                     <img src="img/2.2.jpg" alt="">
-                    <h3>Mang tiền về cho mẹ</h3>
+                    <h3 class="far songItemPlay fa-play-circle">Mang tiền về cho mẹ</h3>
                 </a>
                 <a class="box_music" href="#">
                     <img src="img/2.3.jpg" alt="">
-                    <h3>Lửa gần rơm lâu ngày cũng bén</h3>
+                    <h3 class="far songItemPlay fa-play-circle">Lửa gần rơm lâu ngày cũng bén</h3>
                 </a>
                 <a class="box_music" href="#">
                   <img src="img/2.4.jpg" alt="">
-                  <h3>Mùa ly bỏ lại</h3>
-                </a>
+                  <h3 class="far songItemPlay fa-play-circle">Mùa ly bỏ lại</h3>
+                </a class="far songItemPlay fa-play-circle">
                 <a class="box_music" href="#">
                   <img src="img/2.5.jpg" alt="">
-                  <h3>Hip-hop Việt</h3>
+                  <h3 class="far songItemPlay fa-play-circle">Hip-hop Việt</h3>
                 </a>
                 <a class="box_music" href="#">
                   <img src="img/2.6.jpg" alt="">
-                  <h3>Nhất bạn rồi</h3>
+                  <h3 class="far songItemPlay fa-play-circle">Nhất bạn rồi</h3>
                 </a>
              
               </div>
@@ -192,10 +193,12 @@
       <div class="nav_bar_bottom">
 
         <div class="sx">
-          <a href="#"><img src="img/1.jpg" alt=""></a>
+          <a href="#" ><img src="" alt=""></a>
           <div class="box_info">
-            <a href="#"><span>Muốn chắc thắng, Coi chừng chắc thua</span></a>
-            <a class="pink_floyd" href="#"><span>Tri kỉ cảm xúc</span></a>
+            <a href="" id="masterSongName"><span></span></a>
+            <a class="" href="#" ><span></span></a>
+            <span ></span>
+
           </div>
           <a class="heart" href="#"><i class="far fa-heart"></i></a>
           <a class="folder" href="#"><i class="far fa-folder"></i></a>
@@ -203,16 +206,14 @@
 
         <div class="center">
           <div class="top">
-            <a href="#"><i class="fas fa-random"></i></a>
-            <a href="#"><i class="fas fa-step-backward"></i></a>
-            <a class="play" href="#"><i class="far fa-play-circle"></i></a>
-            <a href="#"><i class="fas fa-step-forward"></i></a>
-            <a href="#"><i class="fas fa-redo-alt"></i></a>
+            <a class="btn btn-random" href="#"><i class="fas fa-random"></i></a>
+            <a id="previous" href="#"><i class="fas fa-step-backward"></i></a>
+            <a id="masterPlay" href="#"><i class="far fa-2x fa-play-circle"></i></a>
+            <a id="next" href="#"><i class="fas fa-step-forward"></i></a>
+            <a class="btn btn-repeat" href="#"><i class="fas fa-redo-alt"></i></a>
           </div>
           <div class="bottom">
-            <span>0:25</span>
-            <div class="bar"></div>
-            <span>6:53</span>
+          <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
           </div>
         </div>
 
@@ -228,9 +229,14 @@
     </div>
 
     <script src="js/script.js" charset="utf-8"></script>
+    <script src="js/play.js" charset="utf-8"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"></script>
   </body>
 
 </html>
+
+
+
+
